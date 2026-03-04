@@ -1,0 +1,58 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 60px;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    color: white;
+}
+
+.logoText span:first-child {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.logoText span:last-child {
+    font-size: 20px;
+    font-weight: 800;
+}
+.nav {
+    display: flex;
+    gap: 16px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    transition: opacity 0.3s ease;
+}
+
+.nav a:hover {
+    opacity: 0.7;
+}
+
+.button {
+    display: none;
+    /* приховуємо бургер на desktop */
+}

@@ -1,9 +1,5 @@
+import HeroSection from "../components/sections/HeroSection";
+
 export default function Home() {
-  return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        Charity Foundation
-      </h1>
-    </main>
-  );
+  return <HeroSection />;
 }
