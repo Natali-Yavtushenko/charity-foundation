@@ -22,7 +22,7 @@ export default function HeroSection() {
 const styles = {
   hero: {
     height: "100vh",
-    backgroundImage: "url('/hero.jpg')",
+    backgroundImage: "url('/images/hero.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     position: "relative" as const,

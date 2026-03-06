@@ -64,7 +64,7 @@
     position: fixed;
     inset: 0;
 
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.35);;
     /* м’яке затемнення */
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
@@ -88,17 +88,22 @@
     position: fixed;
     top: 0;
     right: -300px;
+
     width: 280px;
     height: 100vh;
-    background: rgba(255, 255, 255, 0.9);
+
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+
     display: flex;
     flex-direction: column;
     gap: 25px;
     padding: 80px 30px;
+
     transition: right 0.3s ease;
     z-index: 1000;
-    backdrop-filter: blur(10px);
-        
 }
 
 /* Плавний виїзд */
